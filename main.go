@@ -1,4 +1,4 @@
-package autostore
+package main
 
 import (
 	"fmt"

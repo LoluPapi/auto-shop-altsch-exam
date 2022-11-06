@@ -1,4 +1,4 @@
-package autostore
+package main
 
 type Product interface {
 	Name() string

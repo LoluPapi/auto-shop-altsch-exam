@@ -8,16 +8,6 @@ type Product interface {
 	IsFinished() bool
 }
 
-// type product struct {
-// 	id             productID
-// 	name           string
-// 	price          float64
-// 	productType    ProductType
-// 	category       string
-// 	createdAt      *time.Time
-// 	description    string
-// }
-
 type Order struct {
 	itemId   int
 	quantity int
